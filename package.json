@@ -1,0 +1,27 @@
+{
+  "name": "rest-cities",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Node.js RESTful API for retreiving city data to use it for calling openweather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "REST",
+    "API"
+  ],
+  "author": "Miafargo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
